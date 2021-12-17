@@ -1,0 +1,69 @@
+/*Joshua Holtom 12/16/21*/
+
+/*always create your style changes here, DO NOT edit the origional stylessheet, just use this one since you linked it lower as a closer reference.
+overwrite by creating the same thing here so you dont delete the og one. */
+
+
+body{
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+}
+.bg-faded {
+    background-color: #7e5521;
+}
+h1{
+    color: black;   
+
+}
+h2{
+    color:darkgrey;
+    font-family: 'Times New Roman', Times, serif
+}
+li{
+    text-align: left;
+}
+a {
+    font-family: 'Times New Roman', Times, serif;
+    color: burlywood;
+
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    display: block;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+iframe{
+    justify-content: center;
+    display: block;
+    margin: auto;
+}
+
+a:hover{
+    color:rgb(184, 149, 103);
+    font-weight: bolder;
+}
+
+.footer {
+    text-align:center ;
+    border-top: 50px;
+    height:120px ;
+    color:darkslategray ;
+    border:solid 2px darkslategray;
+}
+video{
+    display: block;
+    margin: auto;
+}

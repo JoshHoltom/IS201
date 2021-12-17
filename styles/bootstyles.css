@@ -1,0 +1,58 @@
+/*Josh Holtom 12/16/21)*/
+
+
+
+body{
+    color:black;
+    font-family: papyrus;
+    text-align: left;
+    min-height:100%; 
+    padding:0; 
+    margin:0; 
+    position:relative; 
+}
+
+
+header{ 
+    background:blanchedalmond; 
+    height: 10%;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+footer{
+     background:blanchedalmond;
+     position:relative; 
+     bottom:0; 
+     width:100%; 
+     height: 2%; 
+     border: 2px black; 
+    }
+
+h1{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align:left;
+    padding: 1%;
+    
+}
+h2{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align:center;
+    padding: 1%;
+}
+
+a{
+    Color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    Padding: 1%;
+}
+a:hover{
+    color:royalblue;
+}
+
